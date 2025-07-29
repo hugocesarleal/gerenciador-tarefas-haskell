@@ -13,13 +13,13 @@ Este projeto é um simples **Gerenciador de Tarefas** desenvolvido em Haskell. E
 
 O programa é composto por funções puras e de entrada/saída (`IO`) para manipulação das tarefas. As principais funções são:
 
-- `adicionarTarefa`: Adiciona uma tarefa à lista.
-- `removerTarefa`: Remove uma tarefa dado seu índice.
-- `exibirTarefas`: Mostra todas as tarefas na tela.
-- `exibirMenu`: Mostra o menu principal.
-- `processarOpcao`: Processa a escolha do usuário.
-- `mainLoop`: Loop principal do programa.
-- `main`: Função inicial.
+- `adicionarTarefa`: Adiciona uma tarefa à lista.  
+- `removerTarefa`: Remove uma tarefa dado seu índice.  
+- `exibirTarefas`: Mostra todas as tarefas na tela.  
+- `exibirMenu`: Mostra o menu principal.  
+- `processarOpcao`: Processa a escolha do usuário.  
+- `mainLoop`: Loop principal do programa.  
+- `main`: Função inicial.  
 
 ## Como Executar
 
@@ -30,17 +30,31 @@ O programa é composto por funções puras e de entrada/saída (`IO`) para manip
 ### Executando
 
 1. Clone o repositório:
+   ```bash
    git clone https://github.com/seu-usuario/gerenciador-tarefas-haskell.git
    cd gerenciador-tarefas-haskell
+   ```
 
-2. Compile o arquivo:
-   ghc GerenciadorTarefas.hs
+2. Inicie o Haskell:
+   ```bash
+   ghci
+   ```
 
-3. Execute o programa:
-   ./GerenciadorTarefas
+3. Carregue o Arquivo:
+   ```bash
+   : load GerenciadorTarefas · hs
+   ```
+   
+4. Execute a Função Principal:
+   ```bash
+   main
+   ```
+
+   
 
 ## Exemplo de Uso
 
+```txt
 --- Gerenciador de Tarefas ---
 1. Adicionar tarefa
 2. Remover tarefa
@@ -53,11 +67,4 @@ Tarefa adicionada!
 --- Suas Tarefas ---
 1. Estudar Haskell
 --------------------
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-Feito com 💻 e Haskell.
+```
