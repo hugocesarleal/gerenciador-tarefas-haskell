@@ -1,6 +1,6 @@
 # Gerenciador de Tarefas em Haskell
 
-Este projeto é um simples **Gerenciador de Tarefas** desenvolvido em Haskell. Ele permite ao usuário adicionar, remover e visualizar tarefas diretamente pelo terminal.
+Este projeto é um simples **Gerenciador de Tarefas** desenvolvido em Haskell para a disciplina de Paradigmas de Programação. Ele permite ao usuário adicionar, remover e visualizar tarefas diretamente pelo terminal.
 
 ## Funcionalidades
 
